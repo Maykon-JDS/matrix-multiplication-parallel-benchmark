@@ -83,7 +83,7 @@ Antes de iniciar, verifique se você possui instalados no seu computador:
 
 1. **Clonar o repositório**
 ```bash
-git clone https://github.com/SEU-USUARIO/matrix-parallel-benchmark.git
+git clone https://github.com/Maykon-JDS/matrix-multiplication-parallel-benchmark.git
 cd matrix-parallel-benchmark
 ````
 
