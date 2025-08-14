@@ -1,0 +1,13 @@
+name: parallel-benchmark
+services:
+  builder:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+      tags:
+        - "parallel-benchmark:latest"
+        - "parallel-benchmark:1.0.0"
+    volumes:
+      - type: bind
+        source: ./build
+        target: /usr/src/build
